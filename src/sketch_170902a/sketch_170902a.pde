@@ -15,9 +15,14 @@ void draw() {
   ellipse(365, 150, 25, 30);
   ellipse(x, y, 25, 30);
   fill(240, 12, 12);
-  void keyPressed() {
-    x++;
-    y++;
-  }
+  keyPressed();
+  ellipse(x+220, y, 60, 50);
+
 }  
+
+void keyPressed() {
+  x++;
+  y++;
+  noStroke ();
 }
+
